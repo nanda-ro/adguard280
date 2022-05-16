@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  adguard280:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: adguard280:latest
+    container_name: adguard280
+    ports:
+      - "8000:8000"
