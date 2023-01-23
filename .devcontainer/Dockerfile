@@ -1,4 +1,6 @@
-FROM python:3.11-slim
+FROM mcr.microsoft.com/devcontainers/python:0-3.11
 
-RUN pip install poetry && \
-    poetry install
+USER vscode
+WORKDIR /home/vscode
+
+RUN pip install poetry
