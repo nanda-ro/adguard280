@@ -4,10 +4,9 @@
 - 本APIを立ち上げたサーバのURLをAdGuard Homeに登録することで更新が不要に
 
 ## 環境
-- Python 3.10
+- Python 3.11
 - Poetry
 - FastAPI
 - Uvicorn
 - Docker
 - Docker Compose
-
