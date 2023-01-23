@@ -1,3 +1,4 @@
 FROM python:3.11-slim
 
-RUN pip install poetry
+RUN pip install poetry && \
+    poetry install
